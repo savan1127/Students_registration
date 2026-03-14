@@ -131,12 +131,12 @@ http://localhost:3000/students-data
 
 ## 📌 Future Improvements
 
-*✨ Display registered students list
-*✏️ Edit student details
-*🗑️ Delete student records
-*✅ Form validation
-*🔐 Authentication system
-*🌐 Connect with real backend (Node.js / Express / MongoDB)
+* ✨ Display registered students list
+* ✏️ Edit student details
+* 🗑️ Delete student records
+* ✅ Form validation
+* 🔐 Authentication system
+* 🌐 Connect with real backend (Node.js / Express / MongoDB)
 
 ---
 
