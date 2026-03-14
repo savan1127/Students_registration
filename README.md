@@ -1,4 +1,4 @@
-# 🎓 Student Registration System
+# 🎓 Student Registration
 
 A modern **Student Registration Form** built with **React ⚛️, Vite ⚡, and Tailwind CSS 🎨,** using **JSON Server** 🗄️ as a mock backend.
 
