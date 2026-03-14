@@ -1,16 +1,151 @@
-# React + Vite
+# 🎓 Student Registration System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Student Registration Form** built with **React ⚛️, Vite ⚡, and Tailwind CSS 🎨,** using **JSON Server** 🗄️ as a mock backend.
 
-Currently, two official plugins are available:
+This project allows users to **register student information through a clean, responsive, and user-friendly interface.** It demonstrates important frontend concepts like **React form handling, component-based architecture, and API integration.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🚀 Simple and clean UI
 
-## Expanding the ESLint configuration
+* 🧾 Student registration form
+* 📱 Responsive layout
+* ⚡ Fast development with Vite
+* 🎨 Styled with Tailwind CSS
+* 🗄️ Mock backend using JSON Server
+* 🔄 Form interaction with smooth input focus effects
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## 🖼️ Registration Form Fields
+
+The registration form collects the following information:
+
+* 👨‍🎓 Student Name
+* 👨 Father Name
+* 👩 Mother Name
+* 🎂 Date of Birth
+* ⚧ Gender
+* 🏫 Class
+* 📧 Email Address
+* 📞 Phone Number
+* 🏠 Address
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology      | Purpose                |
+| --------------- | ---------------------- |
+| ⚛️ React        | Frontend UI            |
+| ⚡ Vite          | Development build tool |
+| 🎨 Tailwind CSS | Styling                |
+| 🗄️ JSON Server | Fake REST API          |
+| 📜 JavaScript   | Application logic      |
+
+---
+
+## 📂 Project Structure
+
+```
+student-registration
+│
+├── public
+│   └── image
+│       └── febicon.png
+│
+├── src
+│   ├── component
+│   │   └── StudentRegistration.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+│
+├── db.json
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/student-registration.git
+```
+
+### 2️⃣ Move into the project directory
+
+```bash
+cd student-registration
+```
+
+### 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+---
+
+## ▶️ Run the Project
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Your app will run at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🗄️ Start JSON Server (Mock API)
+
+Run the following command:
+
+```bash
+npx json-server --watch db.json --port 3000
+```
+
+API endpoint:
+
+```
+http://localhost:3000/students-data
+```
+---
+
+## 📌 Future Improvements
+
+*✨ Display registered students list
+*✏️ Edit student details
+*🗑️ Delete student records
+*✅ Form validation
+*🔐 Authentication system
+*🌐 Connect with real backend (Node.js / Express / MongoDB)
+
+---
+
+👨‍💻 Author
+
+Rathod Savan
+
+💻 Passionate Frontend Developer
+
+---
+
+⭐ If you like this project, consider giving it a **star** on GitHub!
