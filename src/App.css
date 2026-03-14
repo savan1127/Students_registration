@@ -1,0 +1,5 @@
+input,select,textarea{transition:0.2s;}
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible{  box-shadow: 0px 10px 45px rgba(0,0,0,0.15);
+}
